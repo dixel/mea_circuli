@@ -13,5 +13,5 @@ def cb(response):
 
 if __name__ == '__main__':
     api = MoiKrugApi()
-    api.req(("staff", 548669435), cb)
+    api.req(("positions", 979227173), cb)
     api.start()
